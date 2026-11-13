@@ -6,6 +6,7 @@ Estrutura:
   all-american-b-lema/       -> versão B
   all-american-c-brilho/     -> versão C
   all-american-d-cafe/       -> versão D
+  all-american-f-mix/        -> versão F (mix B + D)
 
 Deploy pelo site:
 1. vercel.com > Add New > Project > arraste a pasta "vercel" inteira.
