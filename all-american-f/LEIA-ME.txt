@@ -1,0 +1,27 @@
+All American Language School - versão F (pasta pronta para a Vercel)
+
+COMO PUBLICAR
+  Pelo site:  vercel.com > Add New > Project > arraste ESTA pasta inteira (a que tem o index.html).
+              Framework Preset: Other. Sem build command. Deploy.
+  Pelo terminal:  cd all-american-f   e depois   npx vercel --prod
+
+O QUE TEM AQUI
+  index.html      a página (textos e dados do negócio ficam no bloco CONFIG, perto do fim do arquivo)
+  support.js      motor que monta a página
+  vendor/         React, hospedado junto (a página não depende de CDN)
+  fonts/          Bagel Fat One, Instrument Sans e Caveat, hospedadas junto (licença OFL em cada pasta)
+  assets/         selo, fotos, favicon e og.png (imagem de compartilhamento)
+  vercel.json     cache e cabeçalhos de segurança
+  robots.txt
+
+DEPOIS DE PUBLICAR
+  1. Abra o link no celular e confira o mapa na seção Contato.
+  2. Com o domínio definido, acrescente no <head> do index.html:
+     <meta property="og:image" content="https://SEU-DOMINIO/assets/og.png">
+     (é o que faz a imagem aparecer quando o link for enviado no WhatsApp)
+  3. Para atualizar uma imagem, troque o arquivo em assets/ mantendo o mesmo nome.
+
+[CONFIRMAR] com o cliente
+  - Rodapé diz "Site piloto feito pela Veyroni": trocar na versão final.
+  - Imagem dos livros (assets/livros-achievement.webp) é provisória: trocar por foto real.
+  - Horário, endereço, WhatsApp e CNPJ: conferir um por um.
